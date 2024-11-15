@@ -26,8 +26,36 @@
       </div>
     </div>
   </nav>
+   
+  <!-- FORMULARIO PARA AGREGAR PRODUCTO -->
+  <main class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Formulario de registro</h1>
+      </div>
+    </div>
+   <div class="row">
+    <div class="col">
+      <form action="" id="prenda-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre del producto</label>
+          <input type="text" class="form-control" id="name" placeholder="nombre del producto" required>
+        </div>
 
-  Estoy en la pagina de agregar prenda
+        <div class="mb-3">
+          <label for="description" class="form-label">Descripcion</label>
+          <textarea type="text" class="form-control" id="description" placeholder="descripcion del producto" required></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="price" class="form-label">Precio</label>
+          <input type="number" class="form-control" id="price" placeholder="precio del producto" required>
+        </div>
+        <button type="submit" class="btn btn-success">Guardar</button>
+      </form>
+    </div>
+   </div>
+  </main>
    
    
    
