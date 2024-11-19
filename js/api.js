@@ -37,4 +37,4 @@ export const deletePrenda = async (id) => {
         method: "DELETE",
     });
     
-};
+}; 
